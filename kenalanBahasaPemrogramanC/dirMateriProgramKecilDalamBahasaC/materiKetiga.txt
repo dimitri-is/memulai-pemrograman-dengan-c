@@ -1,0 +1,26 @@
+Program Dengan Kembalian Nilai
+selain menuliskan sebuah string(deretan huruf) ke layar, pada akhir eksekusi, program ini mengirimkan atau mengembalikan ke kita(return) sebuah nilai 0 dinyatakan oleh perintah return 0, karena sebuah nilai integer (Nol), awal program adalah int main.
+
+mengirimkan nilai 0 sepertinya tidak ada gunanya untuk contoh program ini. saat kita memrogram sistem dan program berinteraksi dengan lingkungan serta program lain, nilai kembalian ini sangat berguna untuk mengecek program benar-benar melakukan tugasnya sesuai dengan spesifikasi, sampai selesai dengan baik yaitu mengirim nilai 0. 
+bentuk tulisan ini yang dipakai sebagai standar penulisan dalam pembelajaran ini dan juga oleh banyak dim pengembang, karena jika program dieksekusi dengan benar, program lain yang memanfaatkannya dapat nilai 0 yang dikirimkannya
+contoh sintaks kode =
+/* file : Penceng.c */
+/* penulis : kakek sugionoas, mail gionosu@mail.example */
+/* program untuk menuliskan halo dunia ke layar */
+		#include<stdi.o>
+		int
+		main()
+		{
+		/*kamus*/
+
+		/*algoritma*/
+			printf("Halo Dunia!");
+			return.0;
+		}
+rangkuman materi =
+1. membedakan makna void main dengan int main 
+2. memahami konsep return dan menfaatnya walaupun belum memanfaatkannya
+
+referensi aktivitas kreatif =
+1. melakukan studi dengan mencaro contoh di internet, dan membandingkan lebih banyak yang mana pemakaiannya: versi program ke-2 atau yang pertama
+2. secara tidak sengaja, kelak, kita akan menerima kembalian yang bukan 0 jika terjadi masalah eksekusi
