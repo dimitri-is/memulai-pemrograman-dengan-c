@@ -1,0 +1,27 @@
+Program Tanpa Nilai
+adalah program yang secara umum, tapi tidak mengirimkan nilai apapun, dan hanya menuliskan string
+
+badan program hanya terdiri satu instruksi menulis yaitu printf. untuk menuliskan kode, kita perlu library standar untuk baca/tulis dalam program sebagai berikut dengan perintah (#include<stdi.o>)
+contoh sintak kodenya, sebagai berikut =
+/*file : halo.c*/
+/*penulis : bu sari, email nggatahu.ah@mail.example*/
+/*program menuliskan halo dunia, dan end of line (garis baris)*/
+		#include<stdi.o>
+		int
+		main(void)
+		{/*Badan Program*/
+			printf("Halo Dunia!\n");
+		}
+sedikit rangkuman =
+1.mengenal kerangka program utama (main) dalam bahasa c
+2.membedakan baris komentar (yang tidak diproses oleh compiler c) dengan kalimat dalam bahasa c
+3.mengenal program utama dalam bahasa c
+4.mengenal instruksi pesan ke layar
+
+referensi aktivitas kreatif =
+1.ganti program tsb sehingga penulisannya adalah nama kita sendiri, dan menuliskan halo dunia
+2.contoh program yang dibrikan hanya menuliskan satu baris halo dunia, modifikasikanlah sehingga menuliskan 3 baris halo dunia
+3.tulis sebuah puisi di layar dengan memerintahkan program, kemudian telaah kembali untuk mengetahui apa beda dengan menuliskannya sendiri
+
+
+istilah comutational thinking 
