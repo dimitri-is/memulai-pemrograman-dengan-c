@@ -1,0 +1,9 @@
+Kita akan belajar koding melalui beberapa contoh program kecil sederhana.
+Teks program terdapat dua bagian =
+1. Teks yang diproses oleh compiler
+2. Teks yang tidak diproses oleh compiler, yaitu yang ditulis diantara /* dan */ yang sering disebut komentar
+Sebuah program utama terdiri dua bagian -
+1. Kamus yang berisi nama-nama yang dideklarasi, yang selanjutnya dapat diacu untuk mengambil nilainya.
+2. Program, yaitu satu atau lebih deretan instruksi yang kita tulis untuk dikerjakan
+
+Setiap kalimat, baik berupa deklarasi maupun instruksi, selalu diakhiri dengan ";", atau diakhiri suatu blok yang terdiri dituliskan diantara ({), dan (}) 
