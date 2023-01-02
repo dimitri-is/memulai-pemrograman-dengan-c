@@ -27,3 +27,5 @@ int main(void)
     /* code */
     printf("Hello World!");
 }
+// output	> Hello World!
+//bagaimana ketika kita ingin mengprint enter? Bisa kita tambahkan karakter (\n), maka secara otomatis akan terdapat di baris selanjutnya baris hasil setelah (\n)
