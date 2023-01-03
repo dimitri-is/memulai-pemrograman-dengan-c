@@ -1,0 +1,43 @@
+Pengisian Nilai Dengan Inisialisasi
+dilakukan saat variabel dideklarasi melalui kalimat int i
+bahwa menyatakan (declare) yang akan bisa kita pakai dengan sebuah variabel bernama i
+contoh deklarasinya
+        #include<stdio.h>
+        int main()
+        {
+            int i = 5;
+        }
+mendeklarasikan variabel jenis int, maka dapat menampung nilai bilangan bulat antara -32767 dan 32767 pada compiler 16 bit seperti Turbo C
+untuk compiler 32bit, batasan nilai bilangan bulatnya -2147483648 hingga 2147483647
+
+perlu diberitahu bagaimana suatu nilai dicetak di komputer.
+%d pada sintaks di bawah akan digantikan oleh nilai (/) di layar
+        /* File : initvar.c */
+        /* Penulis : Bu Dengklek, email inge@bebras.or.id */
+        /* Mengisi variabel i yg bertype in dengan nilai 5 dan menuliskannya */
+        #include<stdio.h>
+        int main ()
+        {/* Kamus */
+          int i = 5; /* deklarasi dan inisialisasi nilai variabel i dengan 5 */
+          /* Algoritma */
+          printf ("Ini nilai i : %d \n", i);/*untuk mengamati dampak inisialisasi*/
+          return 0;
+        }
+rangkuman
+1. memahami nama variabel dan bagaimana memperkenalkannya ke program
+2. memahami makna dan dampak konstruksi "-" dalam bahasa C, dalam sebuah deklarasi variabel
+3. memahami dampak eksekusi "%d" dan hubungan dengan nilai variabel, pada perintah printf
+
+referensi aktivitas kreatif yang bisa dikerjakan =
+1. latihan pemahaman nama variabel, ganti teks program int i; atau int radius; int umur; int jumlah; dan amati apa yang akan terjadi selanjutnya
+2. latihan pemahaman eksekusi
+    ganti baris int = 5; dengan int i; dan amatilah yang terjadi
+    tulis beberapa baris nama variabel integer, misal j, k dan cetaklah setelah deklarasi
+    dan apa yang kita dapat?
+3. lakukan inisialisasi dengan nilai yang bukan 5, tapi sesuai perhitungan yang kita inginkan
+    beberapa nilai, kita akan mengalami persoalan karena program tidak berjalan mulus
+4. melakukan percobaan dengan mengganti nama tipe dan tipe variabel sesuai dengan definisi nama, dan nilai yang ditentukan
+    misal =
+    int bebek=10; /* bebekku ada 10 */
+    float luas-2.5; /* luas kebunku 2.5 hektar */
+    float keliling= 2*3.14*5.5  /* keliling dari sebuah lingkaran yang jari-jarinya 5.5cm */

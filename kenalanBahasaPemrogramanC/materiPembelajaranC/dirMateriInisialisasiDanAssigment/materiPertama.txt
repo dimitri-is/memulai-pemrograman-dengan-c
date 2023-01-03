@@ -1,0 +1,19 @@
+Pengantar Pengisian Nilai Variabel
+*variabel adalah nama yang dapat menampung nilai yang dapat diubah
+mempunyai tipe tertentu, menentukan tipe nilai yang disimpan
+kita hanya belajar mendefinisikan, dan mengisi tipe dasar =
+1. integer(bilangan bulat), angka tanpa titik desimal
+    > contoh= 10(artinya nilai sepuluh)
+    tipe ini dikenal penyebutan sebagai (int)
+2. bilangan ril, angka dapat mempunyai pecahan yang dituliskan sebagai angka belakang titik desimal
+    > contoh= 0.5(artinya setengah)
+    dikenal menggunakan penyebutan float
+3. karakter (huruf), huruf atau karakter lainnya yaitu angka, karakter khusu, atau bahkan yang tidak kelihatan misal "spasi", dan akhir baris
+    dikenal menggunakan kata kunci char
+
+dua cara pengisian nilai =
+1. saat dideklarasikan
+2. dengan instruksi assignment
+
+perlu dibuktikan dengan menuliskan nilai setelah nilai dilakukan, untuk membuktikan nilai variabel berjalan dengan baik
+setelah itu, memakai instruksi printf seperti pada materi sebelumnya

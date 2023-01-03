@@ -1,0 +1,26 @@
+Inisialisasi  Dan Assignment Nilai Bilangan Rill
+tipe bilangan rill dituliskan sebagai float
+dua cara penulisannya, bilangan bertitik desimal, atau bilangan bertitik desimal diikuti dengan pangkatnya
+nilai yang dapat disimpan pada bilangan bertipe float adalah antara 1.175494351 E-38 sampai dengan 3.402823466 E+38
+        /* File : assignf.c */
+        /* Penulis : Bu Dengklek, email inge@bebras.or.id */
+        /* Mengisi variabel i yg bertype in dengan nilai 5 dan menuliskannya */
+        #include<stdio.h>
+        int main()
+        { /* Kamus */
+          float f = 0.555;
+          float x = 1.5E3;
+        /* Algoritma */
+           printf ("Ini nilai f : %f \n", f);
+           printf ("Ini nilai f : %5.2f \n", f);
+           printf ("Ini nilai x : %10.2f \n", x);
+        return 0;
+        }
+
+rangkuman kompetensinya
+1. mengenal float untuk mendeklarasikan bilangan rill, dan cara menuliskan bilangan rill
+2. mengenal batasan nilai yang dapat disimpan dalam variabel bertipekan float
+
+rekomendasi aktivitas kreatif
+nilai integer dan bilangan rill adalah angka numerik
+eksplorasi jika nilai yang diberikan tidak cocok dengan type yang diberikan, dengan mengkombinasikan program ini dengan program sebelumnya

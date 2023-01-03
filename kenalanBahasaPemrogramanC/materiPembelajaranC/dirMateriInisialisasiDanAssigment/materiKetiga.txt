@@ -1,0 +1,32 @@
+Pengisian Nilai Dengan Assignment
+nilai variabel i pada program ini dilakukan dengan assignment yang dituliskan menggunakan tanda (=)
+berartikan adalah mengisi hasil perhitungan ruas kanan ke nama variabel di ruas kiri, bukan berarti tanda (=)
+kita dapat mulai mengenal "semantik" (makna) dari unit sintikal, yaotu simbol (=) dalam bahasa C
+        /* File : assigni.c */
+        /* Penulis : Bu Dengklek, email inge@bebras.or.id */
+        /* Mengisi variabel i yg ber-type in dengan nilai 5 dan menuliskannya */
+        #include<stdio.h>
+
+        int main ()
+        {/* Kamus */
+          int i;
+
+          /* Algoritma */
+          i = 5; /* sekarang variabel i akan bernilai 5 */
+          printf ("Ini nilai i : %d \n", i);
+
+          i = i+1; /* nilai i ditambah 1, hasilnya disimpan kembali di i */
+          printf ("Ini nilai i : %d \n", i);
+
+          return 0;
+        }
+
+Rangkuman kompetensi
+1. memahami makna dan dampak (=) dalam sebuah assignment
+2. paham dampak eksekusi %d dan hubungan dengan nilai variabel, pada perintah printf
+3. membedakan perbedaan makna dari (=) pada suatu deklarasi, dibandingkan dengan instruksi "assignment"
+4. paham bahwa hasil komputasi di ruas kanan tanda "=" disimpan di variabel di ruas kiri, pada isntruksi i=i+i;
+
+referensi aktivitas kreatif
+dapat melakukan, dan kemudian assignment dengan nilai yang berbeda
+nilai variabel adalah nilai terakhir ketika diubah
